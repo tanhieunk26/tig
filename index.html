@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tiger Tiger Bar, a popular restaurant and bar in Hội An, offering delicious food, drinks, and an exciting atmosphere.">
+    <meta name="keywords" content="tiger tiger bar, tiger tiger bar hội an, bar hội an, nhà hàng hội an, bar nổi tiếng hội an, bar hoi an">
+    <meta name="author" content="Tiger Tiger Bar">
+    <title>Tiger Tiger Bar - Restaurant Review</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        .star-rating {
+            color: gold;
+        }
+        .text-primary {
+            color: #FFD700;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 2rem;
+        }
+        .btn-submit {
+            background-color: #1D4ED8; /* Màu xanh dương */
+            color: #FFFFFF;
+            border-radius: 0.375rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+        .btn-submit:hover {
+            background-color: #2563EB; /* Màu xanh dương đậm */
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.0/dist/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.0/dist/css/intlTelInput.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="text-center py-10">
+        <h1 class="text-4xl font-bold text-primary">Tiger Tiger Bar</h1>
+        <p class="mt-4 text-lg">Nighttime Haven: Savor & Sip from 8 PM Onwards</p>
+
+    </header>
+
+    <!-- Article Section -->
+    <section class="p-10">
+        <h2 class="section-title">Welcome to Tiger Tiger Bar</h2>
+        <div class="max-w-3xl mx-auto mt-5">
+            <img src="https://i.ibb.co/YtCS7tz/2024-12-09.jpg" alt="Tiger Tiger Bar" class="w-full rounded-lg shadow-lg">
+            <p class="mt-5 text-lg">Hello! Welcome to Tiger Tiger!
+Enjoy exclusive offers after 8 PM:
+Relax downstairs with DJ tunes and refreshing drinks
+Head upstairs for breathtaking views of Hoi An while savoring your favorites</p>
+<p class="mt-3 text-lg inline-flex items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 100 100">
+        <path d="M19.5,97c-3.584,0-6.5-2.916-6.5-6.5V60.499 c-0.257-0.106-0.507-0.229-0.749-0.368c-0.232-0.135-0.463-0.296-0.68-0.473C11.297,59.448,12.236,59.248,12,59 c-0.147-0.146,0.203-0.726,0-1c-0.474-0.653-2.536-0.979-2.743-1.691c-0.013-0.043-3.651-13.655-3.651-13.655 c-0.925-3.463,1.14-7.033,4.602-7.958l14.864-3.973c-0.817-1.353-1.453-2.855-1.891-4.492c-0.892-3.342-0.431-6.829,1.3-9.82 s4.522-5.13,7.861-6.022c1.292-0.346,2.568-0.521,3.792-0.521c3.839,0,6.676,1.598,8.831,3.748 c1.051-3.881,3.567-7.555,9.291-9.083c1.089-0.291,2.213-0.439,3.338-0.439c5.851,0,10.993,3.948,12.503,9.601 c0.437,1.637,0.637,3.257,0.606,4.837l13.895-3.713c0.546-0.146,1.11-0.221,1.677-0.221c1.137,0,2.259,0.3,3.245,0.867 c1.514,0.876,2.588,2.278,3.036,3.954l3.614,13.525c0.925,3.464-1.14,7.033-4.602,7.958L87.455,42H88.5c3.584,0,6.5,2.916,6.5,6.5 v42c0,3.584-2.916,6.5-6.5,6.5H19.5z M35.701,22.946c0.287,0.923,0.67,1.61,1.591,2.077c-0.492-0.893-1.021-1.753-1.409-2.12 C35.834,22.913,35.774,22.927,35.701,22.946z M57.428,17.146c-0.144,0.48-0.178,1.399-0.167,2.354 c0.402-0.761,0.5-1.559,0.291-2.393C57.504,17.121,57.463,17.135,57.428,17.146z" opacity=".35"></path><path fill="#f2f2f2" d="M17.5,95c-3.584,0-6.5-2.916-6.5-6.5V58.499c-0.257-0.106-0.507-0.229-0.749-0.368 c-0.232-0.135-0.463-0.296-0.68-0.473c-0.275-0.21-0.521-0.433-0.757-0.681c-0.147-0.146-0.34-0.353-0.543-0.627 c-0.474-0.653-0.807-1.329-1.014-2.042c-0.013-0.043-3.651-13.655-3.651-13.655c-0.925-3.463,1.14-7.033,4.602-7.958l14.864-3.973 c-0.817-1.353-1.453-2.855-1.891-4.492c-0.892-3.342-0.431-6.829,1.3-9.82s4.522-5.13,7.861-6.022 c1.292-0.346,2.568-0.521,3.792-0.521c3.839,0,6.676,1.598,8.831,3.748c1.051-3.881,3.567-7.555,9.291-9.083 c1.089-0.291,2.213-0.439,3.338-0.439c5.851,0,10.993,3.948,12.503,9.601c0.437,1.637,0.637,3.257,0.606,4.837l13.895-3.713 c0.546-0.146,1.11-0.221,1.677-0.221c1.137,0,2.259,0.3,3.245,0.867c1.514,0.876,2.588,2.278,3.036,3.954l3.614,13.525 c0.925,3.464-1.14,7.033-4.602,7.958L85.455,40H86.5c3.584,0,6.5,2.916,6.5,6.5v42c0,3.584-2.916,6.5-6.5,6.5H17.5z"></path><rect width="69" height="43.5" x="17.5" y="45" fill="#f4665c"></rect><rect width="77.001" height="12.5" x="10.193" y="28.824" fill="#ff7575" transform="rotate(-14.961 48.687 35.068)"></rect><rect width="13" height="42.5" x="45.5" y="46" fill="#ffc571"></rect><path fill="none" stroke="#40396e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M46.979,29.062c-6.223,1.663-17.024,2.822-19.518-6.511c-0.918-3.436,1.123-6.966,4.559-7.885 C41.168,12.221,41.721,26.023,46.979,29.062z"></path><path fill="none" stroke="#40396e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M48.149,28.75c6.222-1.663,16.162-6.046,13.668-15.379c-0.918-3.436-4.448-5.478-7.885-4.559 C44.784,11.255,51.188,23.493,48.149,28.75z"></path><rect width="14" height="12" x="42.017" y="30.281" fill="#ffc571" transform="rotate(-14.961 49.01 36.275)"></rect><polygon fill="none" stroke="#40396e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" points="87.89,32.621 84.275,19.096 9.886,38.975 13.5,52.5 17.5,51.431 17.5,88.5 45.5,88.5 58.5,88.5 86.5,88.5 86.5,46.5 35.953,46.5"></polygon><line x1="13.5" x2="39.5" y1="52.5" y2="45.5" fill="none" stroke="#40396e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" opacity=".35"></line>
+        </svg>
+        Tiger Tiger Bar's Nightly Steal! : <p></p>
+        Say <b>"Hiếu invited me"</b> after 8 PM and get <b>Buy 1 Get 1 Free</b> ! 
+</p>
+<p class="mt-5 text-lg">Scroll Down To Review Tiger Tiger Bar</p>
+
+            <div class="flex justify-center items-center mt-5">
+                <div class="flex items-center space-x-2">
+                    <span class="star-rating">⭐⭐⭐⭐⭐</span>
+                    <span class="text-lg">4.8/5 based on 13,237 reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section class="p-10">
+        <h2 class="section-title">Find Us Here</h2>
+        <div class="mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.633919315266!2d108.32666449999999!3d15.8758265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420f007a116f25%3A0x33fc336e59e2c336!2sTiger%20Tiger%20Bar!5e0!3m2!1svi!2s!4v1734035825148!5m2!1svi!2s"
+                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="p-10 bg-gray-800 rounded-lg">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="mt-5">
+            <div class="bg-gray-700 p-4 rounded-lg mb-4">
+                <p class="font-bold text-xl">John Doe</p>
+                <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                <p class="mt-2">"Had an amazing time! The food and drinks were excellent, and the atmosphere was perfect for a night out with friends."</p>
+            </div>
+            <!-- Additional reviews can go here -->
+        </div>
+    </section>
+
+    <!-- Share Your Experience Section -->
+    <section class="p-10">
+        <h2 class="section-title">Share Your Experience</h2>
+        <form id="reviewForm" class="max-w-2xl mx-auto mt-5 bg-gray-800 p-6 rounded-xl">
+            <label for="name" class="block text-xl mb-2">Your Name</label>
+            <input type="text" id="name" name="name" class="w-full p-2 mb-4 bg-gray-700 text-white rounded" required>
+
+            <label for="rating" class="block text-xl mb-2">Rating (1-5)</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" class="w-full p-2 mb-4 bg-gray-700 text-white rounded" required>
+
+            <label for="review" class="block text-xl mb-2">Your Review</label>
+            <textarea id="review" name="review" rows="4" class="w-full p-2 mb-4 bg-gray-700 text-white rounded" required></textarea>
+
+            <label for="image" class="block text-xl mb-2">Upload Image (Optional)</label>
+            <input type="file" id="image" name="image" class="w-full p-2 mb-4 text-white rounded bg-gray-700" accept="image/*">
+
+            <button type="submit" class="btn-submit">Submit Review</button>
+        </form>
+    </section>
+
+    <script>
+        // Language switcher
+        const userLang = navigator.language || navigator.userLanguage;
+        const langMap = {
+            'en': 'English',
+            'ko': 'Korean',
+            'zh': 'Chinese',
+            'th': 'Thai'
+        };
+
+        function changeLanguage() {
+            const language = langMap[userLang] || 'English';
+            document.documentElement.lang = language.toLowerCase();
+        }
+
+        changeLanguage();
+
+        // Handle form submission
+        document.getElementById('reviewForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const rating = document.getElementById('rating').value;
+            const review = document.getElementById('review').value;
+            const imageFile = document.getElementById('image').files[0];
+
+            let message = `**Review from ${name}**\nRating: ${rating}⭐\nReview: ${review}`;
+
+            if (imageFile) {
+                let formData = new FormData();
+                formData.append('image', imageFile);
+
+                try {
+                    let imgurResponse = await fetch('https://api.imgur.com/3/image', {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': 'Client-ID e1a0ce916947966'
+                        },
+                        body: formData
+                    });
+
+                    const imgurData = await imgurResponse.json();
+                    if (imgurData.success) {
+                        const imageUrl = imgurData.data.link;
+
+                        const discordPayload = {
+                            content: message,
+                            embeds: [{
+                                title: "New Review on Tiger Tiger Bar",
+                                image: {
+                                    url: imageUrl
+                                },
+                                color: 0xFF5733
+                            }],
+                            username: "Tiger Tiger Bar Reviews",
+                            avatar_url: "https://example.com/tiger-tiger-avatar.png"
+                        };
+
+                        const webhookURL = "https://discord.com/api/webhooks/1312532913912283156/KlOPC5D8rqsyvpKl1T5k_tnBC4BxtvX0lRvsziLt3J0_1iFbaU7Oqt_S8lQ2s9SWfRjh";
+                        const response = await fetch(webhookURL, {
+                            method: 'POST',
+                            body: JSON.stringify(discordPayload),
+                            headers: {
+                                'Content-Type': 'application/json'
+                            }
+                        });
+
+                        if (response.ok) {
+                            alert("Your review has been submitted!");
+                            document.getElementById('reviewForm').reset();
+                        } else {
+                            alert("Error sending review, please try again.");
+                        }
+                    } else {
+                        alert("Error uploading image, please try again.");
+                    }
+                } catch (error) {
+                    console.error("Error uploading image:", error);
+                    alert("Error uploading image, please try again.");
+                }
+            } else {
+                const discordPayload = {
+                    content: message,
+                    username: "Tiger Tiger Bar Reviews",
+                    avatar_url: "https://example.com/tiger-tiger-avatar.png"
+                };
+
+                const webhookURL = "https://discord.com/api/webhooks/1312532913912283156/KlOPC5D8rqsyvpKl1T5k_tnBC4BxtvX0lRvsziLt3J0_1iFbaU7Oqt_S8lQ2s9SWfRjh";
+                const response = await fetch(webhookURL, {
+                    method: 'POST',
+                    body: JSON.stringify(discordPayload),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    alert("Your review has been submitted!");
+                    document.getElementById('reviewForm').reset();
+                } else {
+                    alert("Error sending review, please try again.");
+                }
+            }
+        });
+    </script>
+</body>
+</html>
