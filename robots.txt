@@ -1,0 +1,10 @@
+# Allow all bots to crawl the entire site
+User-agent: *
+Disallow:
+
+# Specific instructions for a bot (optional)
+User-agent: Googlebot
+Disallow: /private/
+
+# Sitemap URL
+Sitemap: https://traveladvice.vercel.app/sitemap.xml
